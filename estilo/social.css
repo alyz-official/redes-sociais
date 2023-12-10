@@ -13,6 +13,7 @@
 
 img {
     width: 100vw;
+    position: relative;
 }
 
 a {
@@ -23,7 +24,8 @@ a {
     text-align: center;
     font-weight: bold;
     text-decoration: none;
-    margin-top: -6px;
+    position: sticky;
+    bottom: 0;
 }
 
 a:hover {
